@@ -1,0 +1,27 @@
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400 !important;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700 !important;
+  font-style: normal;
+}
+// <weight>: Use a value from 300 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.red-hat-display-regular {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400 !important;
+  font-style: normal;
+}
+
+// .red-hat-display-<uniquifier> {
+//   font-family: "Red Hat Display", sans-serif;
+//   font-optical-sizing: auto;
+//   font-weight: <weight>;
+//   font-style: normal;
+// }

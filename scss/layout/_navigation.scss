@@ -1,0 +1,25 @@
+.header__nav {
+  display: none;
+  margin: 0 84px 0 auto;
+
+  @media screen and (min-width: 1440px) {
+    display: block;
+  }
+
+
+}
+
+.nav__list {
+  display: flex;
+  gap: 42px;
+  list-style: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: $base-colors-black;
+  font-size: 14px;
+  letter-spacing: 30%;
+  text-align: left;
+  text-transform: uppercase;
+}

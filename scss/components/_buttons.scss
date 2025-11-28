@@ -1,0 +1,46 @@
+.buttons__search-button {
+  width: 44px;
+  height: 44px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg-container__search {
+  width: 20px;
+  height: 20px;
+}
+
+.buttons__search-button svg {
+  width: 100%;
+  height: 100%;
+}
+
+.buttons__hamburger-button {
+  width: 44px;
+  height: 44px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+    @media screen and (min-width: 1440px) {
+    display: none;
+  }
+
+}
+
+.svg-container__hamburger {
+  width: 34px;
+  height: 22px;
+}
+
+.buttons__hamburger-button svg {
+  width: 100%;
+  height: 100%;
+}
