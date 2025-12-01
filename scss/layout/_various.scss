@@ -1,0 +1,35 @@
+.various {
+  margin-bottom: 70px;
+}
+
+.various>.container {
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.various svg {
+  width: 24px;
+  height: 12px;
+  margin-bottom: 35px;
+}
+
+.variuos__right,
+.various__left {
+  @media screen and (min-width: 1440px) {
+    max-width: 470px;
+    width: 100%;
+  }
+}
+
+.various p {
+  @media screen and (min-width: 768px) {
+    text-align: right;
+  }
+
+  @media screen and (min-width: 1440px) {
+    text-align: left;
+  }
+
+}

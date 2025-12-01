@@ -82,3 +82,12 @@ p {
   font-size: 16px;
   line-height: 32px;
 }
+
+.posts__title {
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  color: $base-colors-black;
+  text-align: left;
+  margin-bottom: 10px;
+}
